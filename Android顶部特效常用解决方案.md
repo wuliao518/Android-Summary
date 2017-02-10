@@ -42,7 +42,7 @@ public class MyScrollView extends ScrollView {
 + ListView
 ListView通过添加Header的方式，然后监听滚动，也可以做到类似ScrollView的效果
 Tip:ScrollView内部不能嵌套ListView，致使情况稍微复杂一点（ScrollView内嵌套ListView的方案不推荐使用，会破坏ListView的混存机制，不如改为LinearLayout）。
-![蝉游记效果演示](./ezgif.com-video-to-gif.gif)
+![蝉游记效果演示](./res/ezgif.com-video-to-gif.gif)
 
 ```xml
 
