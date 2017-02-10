@@ -42,7 +42,11 @@ public class MyScrollView extends ScrollView {
 + ListView
 ListView通过添加Header的方式，然后监听滚动，也可以做到类似ScrollView的效果
 Tip:ScrollView内部不能嵌套ListView，致使情况稍微复杂一点（ScrollView内嵌套ListView的方案不推荐使用，会破坏ListView的混存机制，不如改为LinearLayout）。
+<<<<<<< HEAD
 
+=======
+![蝉游记效果演示](./res/ezgif.com-video-to-gif.gif)
+>>>>>>> remotes/origin/master
 
 ```xml
 
@@ -175,6 +179,7 @@ public int getScrollY() {
 + 复杂模式
 以上所举的例子都相对简单，还存在很多相对复杂的，下图所示就是一种，当ViewPager内有ListView的时候，它的滚动会响应TabLayout和HeaderView的滚动，洪荒时代的做法是在最外层放置一个自定义View，然后自己控制事件和手势的分发，不仅写起来很吗发，而且通用性能差，写得想让大喊MMP，这里就不讲解了，因为接下来就将迎来救世主。
 ![示意图](http://upload-images.jianshu.io/upload_images/163855-7c1918caa208982c.png)
+
 
 
 
